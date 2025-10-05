@@ -36,6 +36,9 @@ Contains columns such as Order_ID, Agent_Age, Agent_Rating, Store/Drop Coordinat
 • Box plots: Delivery time by weather/traffic
 • Scatter plots: Distance vs Delivery time
 • Heatmaps: Feature correlations
+
+<img width="983" height="450" alt="image" src="https://github.com/user-attachments/assets/cd48ecd4-1003-4822-897c-f446387f05df" />
+
 # Results
 ✓ Cleaned and processed dataset
 ✓ Regression models trained and evaluated
@@ -53,7 +56,11 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, MLflow, Strea
 • Streamlit app
 • MLflow tracking logs
 • Documentation and notebooks
-14-Day Timeline
+
+<img width="991" height="991" alt="image" src="https://github.com/user-attachments/assets/c59c5e4d-9a2b-4204-9fd5-827d36b7c236" />
+
+
+# 14-Day Timeline
 Day 1–2: Import dataset & understand structure
 Day 3–4: Data cleaning & preprocessing
 Day 5–6: EDA & visualization
@@ -62,6 +69,7 @@ Day 9–10: Model training (Linear, RF, GB)
 Day 11: MLflow setup & tracking
 Day 12–13: Streamlit app development
 Day 14: Testing & deployment
+
 # Run Instructions
 1. Clone the repository:
    git clone https://github.com/<your-username>/Amazon-Delivery-Time-Prediction.git
