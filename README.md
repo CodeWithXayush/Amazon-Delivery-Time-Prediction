@@ -18,7 +18,8 @@ Business Use Cases
 2. Dynamic Adjustments: Adjust delivery estimates based on traffic and weather.
 3. Agent Performance Evaluation: Identify efficient or underperforming delivery agents.
 4. Operational Efficiency: Optimize routes and resource allocation.
-Project Workflow
+
+# Project Workflow
 1. Data Preparation – Load and clean data.
 2. Feature Engineering – Compute distance, extract time features.
 3. EDA – Visualize trends and correlations.
@@ -26,15 +27,16 @@ Project Workflow
 5. Model Tracking – Log results in MLflow.
 6. App Development – Build Streamlit UI.
 7. Deployment – Deploy Streamlit app.
-Dataset Description
+   
+# Dataset Description
 File: amazon_delivery.csv
 Contains columns such as Order_ID, Agent_Age, Agent_Rating, Store/Drop Coordinates, Order/Delivery times, Weather, Traffic, Vehicle, Area, Category, and Delivery_Time (target).
-Key Visualizations
+# Key Visualizations
 • Bar charts: Delivery time by product category
 • Box plots: Delivery time by weather/traffic
 • Scatter plots: Distance vs Delivery time
 • Heatmaps: Feature correlations
-Results
+# Results
 ✓ Cleaned and processed dataset
 ✓ Regression models trained and evaluated
 ✓ MLflow tracking implemented
@@ -43,9 +45,9 @@ Evaluation Metrics
 • RMSE – Root Mean Squared Error
 • MAE – Mean Absolute Error
 • R² – Coefficient of Determination
-Tech Stack
+# Tech Stack
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, MLflow, Streamlit
-Deliverables
+# Deliverables
 • Clean dataset
 • Regression models
 • Streamlit app
@@ -60,7 +62,7 @@ Day 9–10: Model training (Linear, RF, GB)
 Day 11: MLflow setup & tracking
 Day 12–13: Streamlit app development
 Day 14: Testing & deployment
-Run Instructions
+# Run Instructions
 1. Clone the repository:
    git clone https://github.com/<your-username>/Amazon-Delivery-Time-Prediction.git
    cd Amazon-Delivery-Time-Prediction
@@ -73,5 +75,5 @@ Run Instructions
 
 4. Open browser:
    http://localhost:8501
-License
+# License
 This project is licensed under the MIT License — free to use and modify for research or learning purposes.
